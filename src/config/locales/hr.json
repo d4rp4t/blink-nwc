@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Tvoji Blink Krugovi rastu!",
+            "body": "Netko je upravo dodan u tvoj unutarnji krug."
+        },
+        "OuterCircleGrew": {
+            "title": "Tvoji Blink Krugovi rastu!",
+            "body": "Netko je upravo dodan u tvoj vanjski krug."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Lijep unutarnji krug! 🤙",
+            "body": "Poželio si dobrodošlicu {{threshold}} ljudi u Blink. Samo tako nastavi!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Lijep unutarnji krug! 🤙",
+            "body": "Poželio si dobrodošlicu {{threshold}} ljudi u Blink ovaj mjesec. Samo tako nastavi!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Vanjski krug raste 💪",
+            "body": "Tvoj Vanjski Krug dosegao je {{threshold}} ljudi. Potičeš usvajanje Bitcoina!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Vanjski krug raste 💪",
+            "body": "Tvoj Vanjski Krug dosegao je {{threshold}} ljudi ovaj mjesec. Potičeš usvajanje Bitcoina!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Ti si vođa! 🏆",
+            "body": "Ti si među {{threshold}} naj korisnika Blinka ovog mjeseca. Samo tako nastavi!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Ti si vođa! 🏆",
+            "body": "Ti si među {{threshold}} naj korisnika Blinka. Samo tako nastavi!"
+        }
+    }
+}

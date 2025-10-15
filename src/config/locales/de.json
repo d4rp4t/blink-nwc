@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Deine Blink Circles wachsen!",
+            "body": "Jemand wurde gerade zu deinem Inner Circle hinzugefügt."
+        },
+        "OuterCircleGrew": {
+            "title": "Deine Blink Circles wachsen!",
+            "body": "Jemand wurde gerade zu deinem Outer Circle hinzugefügt."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Netter Inner Circle! 🤙",
+            "body": "Du hast {{threshold}} Menschen zu Blink eingeladen. Weiter so!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Netter Inner Circle! 🤙",
+            "body": "Du hast diesen Monat {{threshold}} Menschen zu Blink eingeladen. Weiter so!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Dein Outer Circle wächst 💪",
+            "body": "Dein Outer Circle erreicht {{threshold}} Menschen. Du treibst die Bitcoin Adoption voran!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Dein Outer Circle wächst 💪",
+            "body": "Dein Outer Circle erreicht diesen Monat {{threshold}} Menschen. Du treibst die Bitcoin Adoption voran!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Du bist an der Spitze! 🏆",
+            "body": "Du bist diesen Monat unter den Top {{threshold}} Blink Nutzern. Weiter so!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Du bist an der Spitze! 🏆",
+            "body": "Du bist unter den Top {{threshold}} Blink Nutzern. Weiter so!"
+        }
+    }
+}

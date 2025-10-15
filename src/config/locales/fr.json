@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Vos Cercles Blink augmentent !",
+            "body": "Une personne vient d’être ajoutée à votre cercle interne"
+        },
+        "OuterCircleGrew": {
+            "title": "Vos Cercles Blink augmentent !",
+            "body": "Une personne vient d’être ajoutée à votre cercle externe."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Beau cercle interne ! 🤙",
+            "body": "Vous avez parrainé {{threshold}} personnes à Blink. Bravo, continuez comme ça !"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Beau cercle interne ! 🤙",
+            "body": "Vous avez parrainé {{threshold}} personnes à Blink ce mois-ci. Bravo, continuez comme ça !"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Gains du Cercle externe 💪",
+            "body": "Votre Cercle externe a touché {{threshold}} personnes. Vous participez à l’adoption de Bitcoin !"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Gains du Cercle externe 💪",
+            "body": "Votre Cercle externe a touché {{threshold}} personnes ce mois-ci. Vous participez à l’adoption de Bitcoin !"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Vous êtes un meneur ! 🏆",
+            "body": "Vous êtes dans le top {{threshold}} des utilisateurs Blink ce mois-ci. Bravo, continuez comme ça !"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Vous êtes un meneur ! 🏆",
+            "body": "Vous êtes dans le top {{threshold}} des utilisateurs Blink. Bravo, continuez comme ça !"
+        }
+    }
+}

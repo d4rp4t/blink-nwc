@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Jou Blink-sirkels groei!",
+            "body": "Iemand is pas bygevoeg tot jou binnesirkel"
+        },
+        "OuterCircleGrew": {
+            "title": "Jou Blink-sirkels groei!",
+            "body": "Iemand is pas bygevoeg tot jou buitesirkel"
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Mooi binnesirkel! 🤙",
+            "body": "Jy het {{threshold}} mense by Blink verwelkom. Hou so aan!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Mooi binnesirkel! 🤙",
+            "body": "Jy het {{threshold}} mense hierdie maand by Blink verwelkom. Hou so aan!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Buitesirkel groei 💪",
+            "body": "Jou buitesirkel het {{threshold}} mense bereik. Jy bevorder Bitcoin!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Buitesirkel groei 💪",
+            "body": "Jou buitesirkel het {{threshold}} mense bereik hierdie maand. Jy bevorder Bitcoin!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Jy is 'n leier! 🏆",
+            "body": "Jy is in die boonste {{threshold}} Blink-gebruikers hierdie maand. Hou so aan!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Jy is 'n leier! 🏆",
+            "body": "Jy is in die boonste {{threshold}} Blink-gebruikers. Hou so aan!"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+[files]
+extend-exclude = [
+  "CHANGELOG.md",
+  "scripts/*.csv",
+  "vendor/**/*",
+  "src/config/locales/"
+]

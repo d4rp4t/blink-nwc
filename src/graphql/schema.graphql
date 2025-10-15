@@ -1,0 +1,10 @@
+extend schema @link(url: "https://specs.apollo.dev/federation/v2.3", import: ["@key", "@shareable", "@interfaceObject"])
+
+type Query {
+    hello: String!
+}
+
+type User @key(fields: "id") {
+    id: ID!
+    exampleField: String
+}

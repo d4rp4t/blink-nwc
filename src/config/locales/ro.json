@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Cercurile tale Blink cresc!",
+            "body": "Cineva tocmai a fost adăugat în cercul tău de prieteni."
+        },
+        "OuterCircleGrew": {
+            "title": "Cercurile tale Blink cresc!",
+            "body": "Cineva tocmai a fost adăugat în cercul tău exterior."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Frumos cerc de prieteni! 🤙",
+            "body": "Ați primit {{threshold}} persoane în Blink. Țineți-o tot așa!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Frumos cerc de prieteni! 🤙",
+            "body": "Ați primit {{threshold}} persoane în Blink în această lună. Țineți-o tot așa!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Cercul exterior crește 💪",
+            "body": "Cercul tău exterior a ajuns la {{threshold}} persoane. Sunteți promotorul adoptării Bitcoin!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Cercul exterior crește 💪",
+            "body": "Cercul tău exterior a ajuns la {{threshold}} persoane în această lună. Sunteți promotorul adoptării Bitcoin!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Sunteți un lider! 🏆",
+            "body": "Sunteți în topul {{threshold}} utilizatorilor Blink în această lună. Țineți-o tot așa!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Sunteți un lider! 🏆",
+            "body": "Sunteți în topul {{threshold}} utilizatorilor Blink. Țineți-o tot așa!"
+        }
+    }
+}

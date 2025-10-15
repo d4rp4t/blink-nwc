@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Blink Çevreniz büyüyor!",
+            "body": "Yakın çevrene biri daha katıldı."
+        },
+        "OuterCircleGrew": {
+            "title": "Blink Çevreniz büyüyor!",
+            "body": "Uzak çevrene biri daha katıldı."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Harika bir yakın çevreniz var! 🤙",
+            "body": "{{threshold}} kişiyi Blink'e davet ettiniz. Aynen devam!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Harika bir yakın çevreniz var! 🤙",
+            "body": "Bu ay {{threshold}} kadar kişiyi Blink'e davet ettiniz. Aynen devam!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Uzak Çevre kazançları 💪",
+            "body": "Uzak Çevreniz {{threshold}} kişiye ulaştı. Bitcoin'in yaygınlaşmasını sağlıyorsunuz!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Uzak Çevre kazançları 💪",
+            "body": "Uzak Çevreniz bu ay {{threshold}} kişiye ulaştı. Bitcoin'in yaygınlaşmasını sağlıyorsunuz!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Sen bir lidersin! 🏆",
+            "body": "Bu ayın zirvedeki Blink kullancıları arasında {{threshold}} oldunuz. Aynen böyle devam!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Sen bir lidersin! 🏆",
+            "body": "Zirvedeki Blink kullancıları arasında {{threshold}} oldunuz. Aynen böyle devam!"
+        }
+    }
+}

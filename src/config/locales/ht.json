@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Blink Sèk ou yo ap grandi!",
+            "body": "Yon moun te jis ajoute nan Sèk Enteryè ou."
+        },
+        "OuterCircleGrew": {
+            "title": "Blink Sèk ou yo ap grandi!",
+            "body": "Yo te jis ajoute yon moun nan Sèk Ekstèn ou."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Bèl Sèk Enteryè! 🤙",
+            "body": "Ou akeyi {{threshold}} moun nan Blink. Kontinye li!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Bèl Sèk Enteryè! 🤙",
+            "body": "Ou akeyi {{threshold}} moun nan Blink mwa sa a. Kontinye li!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Sèk Ekstèn genyen 💪",
+            "body": "Sèk Ekstèn ou a te rive jwenn {{threshold}} moun. Ou ap kondwi adopsyon Bitcoin!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Sèk Ekstèn genyen 💪",
+            "body": "Sèk Ekstèn ou a te rive jwenn {{threshold}} moun nan mwa sa a. Ou ap kondwi adopsyon Bitcoin!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Ou se yon lidè! 🏆",
+            "body": "Ou nan pi gwo {{threshold}} itilizatè Blink mwa sa a. Kontinye li!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Ou se yon lidè! 🏆",
+            "body": "Ou se nan pi gwo itilizatè yo nan {{threshold}} Blink yo. Kontinye li!"
+        }
+    }
+}

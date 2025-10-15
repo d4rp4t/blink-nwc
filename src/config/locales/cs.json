@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Váš okruh přátel s Blinkem roste!",
+            "body": "Někdo byl právě přidán do vašeho kruhu přátel."
+        },
+        "OuterCircleGrew": {
+            "title": "Váš okruh přátel s Blinkem roste!",
+            "body": "Někdo byl právě přidán do vašeho širšího okruhu přátel."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Super okruh přátel! 🤙",
+            "body": "Už jste přivedli {{threshold}} přátel na Blink. Jen tak dál!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Super okruh přátel! 🤙",
+            "body": "Tento měsíc jste přivedli {{threshold}} přátel na Blink. Jen tak dál!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Širší okruh přátel  💪",
+            "body": "Váš širší okruh přátel právě dosáhl {{threshold}} členů. Díky, že pomáháte s adopcí Bitcoinu!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Širší okruh přátel  💪",
+            "body": "Váš širší okruh přátel tento měsíc dosáhl {{threshold}} členů. Díky, že pomáháte s adopcí Bitcoinu!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Jste ve vedení! 🏆",
+            "body": "Tento měsíc jste v top {{threshold}} uživatelů Blinku. Jen tak dál!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Jste ve vedení! 🏆",
+            "body": "Jste v top {{threshold}} uživatelů Blinku. Jen tak dál!"
+        }
+    }
+}

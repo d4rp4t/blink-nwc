@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Bővül a Blink Köröd!",
+            "body": "Valaki bekerült a belső körödbe."
+        },
+        "OuterCircleGrew": {
+            "title": "Bővül a Blink Köröd!",
+            "body": "Valaki bekerült a külső körödbe."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Szép Belső Kör! 🤙",
+            "body": "{{threshold}} embert üdvözöltél a Blinkben. Csak így tovább!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Szép Belső Kör! 🤙",
+            "body": "Ebben a hónapban {{threshold}} embert üdvözöltél a Blinkben. Csak így tovább!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Külső Kör növekedés 💪",
+            "body": "A Külső Köröd mérete: {{threshold}}. Hozzájárulsz a Bitcoin elterjedéséhez!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Külső Kör növekedés 💪",
+            "body": "A Külső Köröd mérete elérte a {{threshold}}-ot ebben a hónapban. Hozzájárulsz a Bitcoin elterjedéséhez!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Első lettél! 🏆",
+            "body": "Ebben a hónapban az első {{threshold}} Blink felhasználó között vagy. Csak így tovább!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Első lettél! 🏆",
+            "body": "Ebben a hónapban az első {{threshold}} Blink felhasználó között vagy. Csak így tovább!"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "notification": {
+        "InnerCircleGrew": {
+            "title": "Dine Blink Cirkler vokser!",
+            "body": "Nogen er lige blevet tilføjet til din inderste cirkel."
+        },
+        "OuterCircleGrew": {
+            "title": "Dine Blink Cirkler vokser!",
+            "body": "Nogen er lige blevet tilføjet til din ydre cirkel."
+        },
+        "InnerCircleAllTimeThresholdReached": {
+            "title": "Flot Indre Cirkel! 🤙",
+            "body": "Du har budt velkommen til {{threshold}} personer i Blink. Fortsæt det gode arbejde!"
+        },
+        "InnerCircleThisMonthThresholdReached": {
+            "title": "Flot Indre Cirkel! 🤙",
+            "body": "Du har budt velkommen til {{threshold}} personer i Blink denne måned. Fortsæt det gode arbejde!"
+        },
+        "OuterCircleAllTimeThresholdReached": {
+            "title": "Ydre Cirkel får styrke 💪",
+            "body": "Din Ydre Cirkel nåede {{threshold}} personer. Du driver Bitcoin adoption frem!"
+        },
+        "OuterCircleThisMonthThresholdReached": {
+            "title": "Ydre Cirkel får styrke 💪",
+            "body": "Din Ydre Cirkel nåede {{threshold}} personer denne måned. Du driver Bitcoin adoption frem!"
+        },
+        "LeaderboardThisMonthThresholdReached": {
+            "title": "Du er en leder! 🏆",
+            "body": "Du er blandt de øverste {{threshold}} Blink brugere denne måned. Fortsæt det gode arbejde!"
+        },
+        "LeaderboardAllTimeThresholdReached": {
+            "title": "Du er en leder! 🏆",
+            "body": "Du er blandt de øverste {{threshold}} Blink brugere. Fortsæt det gode arbejde!"
+        }
+    }
+}
