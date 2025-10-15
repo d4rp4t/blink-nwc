@@ -1,0 +1,36 @@
+name: "Bats test"
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  integration:
+    name: Bats tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Setup BATS
+        uses: mig4/setup-bats@v1
+        with:
+          bats-version: 1.9.0
+      - uses: actions/checkout@v3
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v14
+      - name: Run the Magic Nix Cache
+        uses: DeterminateSystems/magic-nix-cache-action@v8
+      - run: nix develop -c pnpm install --frozen-lockfile
+      - name: Build project
+        run: nix develop -c pnpm build
+      - name: Start dependencies
+        run: nix develop -c make start-deps
+      - name: Wait for services to be ready
+        run: |
+          echo "Waiting for Galoy API to be ready..."
+          timeout 120 bash -c 'until curl -f http://localhost:4455/graphql > /dev/null 2>&1; do sleep 2; done' || (docker compose -p blink-nwc logs && exit 1)
+          echo "Services are ready!"
+      - name: Run bats tests
+        run: nix develop -c make bats-test
+      - name: Stop dependencies
+        if: always()
+        run: nix develop -c make clean-deps
