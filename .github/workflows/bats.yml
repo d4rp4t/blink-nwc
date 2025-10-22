@@ -23,11 +23,24 @@ jobs:
       - name: Build project
         run: nix develop -c pnpm build
       - name: Start dependencies
-        run: nix develop -c make start-deps
+        run: |
+          # Retry logic for docker compose to handle transient Docker Hub issues
+          max_attempts=3
+          attempt=1
+          until nix develop -c make start-deps; do
+            if [ $attempt -eq $max_attempts ]; then
+              echo "Failed to start dependencies after $max_attempts attempts"
+              exit 1
+            fi
+            echo "Attempt $attempt failed. Cleaning up and retrying in 10 seconds..."
+            nix develop -c make clean-deps || true
+            sleep 10
+            attempt=$((attempt + 1))
+          done
       - name: Wait for services to be ready
         run: |
           echo "Waiting for Galoy API to be ready..."
-          timeout 120 bash -c 'until curl -f http://localhost:4455/graphql > /dev/null 2>&1; do sleep 2; done' || (docker compose -p blink-nwc logs && exit 1)
+          timeout 300 bash -c 'until curl -s -X POST -H "Content-Type: application/json" -d "{\"query\":\"{ __typename }\"}" http://localhost:4455/graphql | grep -q "Query" 2>&1; do echo "Still waiting..."; sleep 5; done' || (echo "Services failed to start. Dumping logs:" && docker compose -p blink-nwc logs && exit 1)
           echo "Services are ready!"
       - name: Run bats tests
         run: nix develop -c make bats-test
